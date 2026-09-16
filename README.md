@@ -46,7 +46,7 @@ Fine-tuned Qwen2.5-1.5B-Instruct using parameter-efficient fine-tuning and deplo
 
 Production-oriented backend featuring authentication, role-based authorization, session management, payments, secure file handling, validation, rate limiting, and regression testing.
 
-[Repository](https://github.com/ziadTeama-dev/online-learning-platform)
+[Repository](https://github.com/ziadTeama-dev/online-learning-platform-demo)
 
 ### ⚽ Football AI Agent
 
