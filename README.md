@@ -1,11 +1,11 @@
 <div align="center">
 
-# Hi, I'm Ziad Teama 👋
+# 👋 Hi, I'm Ziad Teama
 
 ### AI Student | Aspiring ML Engineer 🤖
 
-Building and experimenting with **AI systems from the ground up** —
-with a focus on **Generative AI, LLMs, Computer Vision, Reinforcement Learning, and Backend Engineering**.
+Building AI systems from the ground up across
+**Generative AI · LLMs · Computer Vision · Reinforcement Learning · Backend Engineering**
 
 <p>
   <a href="https://github.com/ziadTeama-dev">
@@ -20,104 +20,102 @@ with a focus on **Generative AI, LLMs, Computer Vision, Reinforcement Learning, 
 
 ---
 
-## 🧠 What I Work On
+## ⚡ About Me
 
-| Area                          | Focus                                                                 |
-| ----------------------------- | --------------------------------------------------------------------- |
-| 🤖 **Generative AI & LLMs**   | Transformers, LLM fine-tuning, LoRA/QLoRA, autoregressive generation  |
-| 👁️ **Computer Vision**       | Image captioning, diffusion models, vision-language systems           |
-| 🎮 **Reinforcement Learning** | PPO, reward shaping, self-play, game environments                     |
-| ⚡ **Efficient AI**            | Mixture-of-Experts, dynamic routing, early exit, adaptive computation |
-| ⚙️ **Backend Engineering**    | REST APIs, server-side applications, authentication, databases        |
-| 📊 **Data Engineering**       | ETL pipelines, orchestration, transformation, analytics               |
+I'm an **AI student focused on becoming a strong ML Engineer** through hands-on building, experimentation, and understanding systems from the inside out.
+
+I enjoy working on problems involving **deep learning, LLMs, computer vision, reinforcement learning, and efficient AI**, while also building the backend and data infrastructure needed to turn models into usable systems.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Work
 
-### 🖼️ MoE Image Captioning
+### 🧠 MoE Image Captioning
 
-**Transformer + Mixture-of-Experts + Early Exit**
+**ResNet-50 · Transformer · Mixture-of-Experts · Early Exit**
 
-A custom image-captioning system combining a **ResNet-50 visual encoder** with a Transformer decoder, MoE routing, and confidence-based dynamic computation.
+Built a custom image-captioning architecture combining visual tokens, Transformer decoding, MoE routing, and confidence-based dynamic computation.
 
-**Highlights**
+**Focus:** efficient inference · adaptive computation · model experimentation
 
-* 3-expert Top-1 routing
-* Noisy router + shared expert
-* Visual-to-text cross-attention
-* Confidence-based early exit
-* BLEU-1 / BLEU-4 evaluation
-* Reported reduction in evaluation time with early exiting
-
-🔗 [Explore Repository](https://github.com/ziadTeama-dev/moe-image-captioning)
+🔗 [Repository](https://github.com/ziadTeama-dev/moe-image-captioning)
 
 ---
 
-### 🧠 GPT Mini — From Scratch
+### 🧠 GPT Mini
 
-**Decoder-only Transformer built in PyTorch**
+**Transformer Language Model — Built From Scratch**
 
-An implementation of a GPT-style language model built from the ground up, covering custom multi-head attention, LayerNorm, autoregressive generation, and training experiments.
+Implemented a GPT-style decoder-only Transformer in PyTorch, including multi-head self-attention, normalization, autoregressive generation, and training.
 
-🔗 [Explore Repository](https://github.com/ziadTeama-dev/gpt-mini-from-scratch)
+**Focus:** understanding Transformer internals · language modeling
+
+🔗 [Repository](https://github.com/ziadTeama-dev/gpt-mini-from-scratch)
 
 ---
 
-### 🌫️ DDPM — From Scratch
+### 🌫️ DDPM From Scratch
 
 **Denoising Diffusion Probabilistic Model**
 
-An end-to-end DDPM implementation using a custom U-Net, sinusoidal timestep embeddings, forward noising, and iterative reverse diffusion.
+Implemented a complete diffusion pipeline with a custom U-Net, timestep embeddings, forward noising, and reverse denoising.
 
-🔗 [Explore Repository](https://github.com/ziadTeama-dev/pytorch-ddpm-from-scratch)
+**Focus:** generative modeling · diffusion processes · deep learning
+
+🔗 [Repository](https://github.com/ziadTeama-dev/pytorch-ddpm-from-scratch)
 
 ---
 
 ### 💬 Qwen2.5 LoRA Fine-Tuning
 
-**Efficient LLM Fine-Tuning + Deployment**
+**Qwen2.5-1.5B-Instruct · LoRA · Unsloth**
 
-Fine-tuning **Qwen2.5-1.5B-Instruct** with LoRA using Unsloth, then deploying the resulting conversational model with Streamlit.
+Fine-tuned an instruction-following LLM efficiently using parameter-efficient fine-tuning, then deployed it as an interactive application.
 
-🔗 [Explore Repository](https://github.com/ziadTeama-dev/qwen2.5-lora-finetuning)
+**Focus:** LLM fine-tuning · efficient training · deployment
+
+🔗 [Repository](https://github.com/ziadTeama-dev/qwen2.5-lora-finetuning)
 
 ---
 
 ### ⚽ Football AI Agent
 
-**Reinforcement Learning with Unity ML-Agents**
+**PPO · Self-Play · Unity ML-Agents**
 
-A football environment where an agent learns through **PPO, reward shaping, and self-play**.
+Built a reinforcement-learning football environment where agents learn through PPO, reward shaping, and self-play.
 
-🔗 [Explore Repository](https://github.com/ziadTeama-dev/Football-AI-Agent-with-Unity-ML-Agents)
+**Focus:** reinforcement learning · agent behavior · game environments
+
+🔗 [Repository](https://github.com/ziadTeama-dev/Football-AI-Agent-with-Unity-ML-Agents)
 
 ---
 
 ### 🎬 IMDb ETL Pipeline
 
-**End-to-End Data Engineering**
+**Python · Airflow · PostgreSQL · Docker**
 
-An ETL workflow that extracts, transforms, and loads IMDb movie data into PostgreSQL using **Apache Airflow**, with a dashboard for exploration.
+Built an end-to-end data pipeline for extraction, transformation, and loading of IMDb data with orchestration and database storage.
 
-🔗 [Explore Repository](https://github.com/ziadTeama-dev/imdb-etl-pipeline)
+**Focus:** ETL · orchestration · data engineering
+
+🔗 [Repository](https://github.com/ziadTeama-dev/imdb-etl-pipeline)
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🤖 AI / Machine Learning
+### 🤖 AI / ML
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square\&logo=pytorch\&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square\&logo=huggingface\&logoColor=black)
 ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square\&logo=scikitlearn\&logoColor=white)
 
-### ⚙️ Backend / Web
+### ⚙️ Backend
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=node.js\&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square\&logo=express\&logoColor=white)
-![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20MVC-512BD4?style=flat-square\&logo=.net\&logoColor=white)
+![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20MVC-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
 
 ### 🗄️ Databases
 
@@ -126,20 +124,20 @@ An ETL workflow that extracts, transforms, and loads IMDb movie data into Postgr
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square\&logo=microsoftsqlserver\&logoColor=white)
 
-**Database Design** • **SQL** • **ERD** • **SQL Server Management**
+**SQL · Database Design · ERD · SQL Server Management**
 
-### 💻 Programming
+### 💻 Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
 ![CSharp](https://img.shields.io/badge/C%23-239120?style=flat-square\&logo=csharp\&logoColor=white)
 
-### 🌐 Frontend
+### 🌐 Web
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square\&logo=html5\&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square\&logo=css3\&logoColor=white)
 
-### 🧰 Tools & Platforms
+### 🧰 Tools
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
@@ -161,46 +159,40 @@ An ETL workflow that extracts, transforms, and loads IMDb movie data into Postgr
 
 ## 🔬 Currently Exploring
 
-🧠 Efficient Transformer architectures
-⚡ Mixture-of-Experts and dynamic routing
-🔄 Early-exit and adaptive computation
-🎯 LLM fine-tuning and efficient inference
-⚙️ Production-oriented AI systems
-💡 Stronger problem-solving through DSA
-
----
-
-## 🧩 My Engineering Approach
-
 ```text
-Understand the fundamentals
-          ↓
-Build from scratch
-          ↓
-Experiment
-          ↓
-Measure
-          ↓
-Analyze
-          ↓
-Improve
+Efficient Transformers
+       ↓
+Mixture-of-Experts
+       ↓
+Adaptive Computation
+       ↓
+LLM Fine-Tuning
+       ↓
+Efficient Inference
+       ↓
+Production AI Systems
 ```
 
-I focus on understanding **how systems work internally**, then turning that understanding into practical implementations.
+Alongside AI, I'm continuously strengthening my **DSA and problem-solving skills**.
 
 ---
 
-## 📫 Let's Connect
+## 🧩 Engineering Mindset
 
-<p>
-  <a href="https://github.com/ziadTeama-dev">GitHub</a> •
-  <a href="https://www.linkedin.com/in/ziad-teama-62a563378/">LinkedIn</a>
-</p>
+> **Understand → Build → Experiment → Measure → Analyze → Improve**
+
+I don't want to only use AI models.
+I want to understand **what happens under the hood**, reproduce ideas from first principles, and turn experiments into practical systems.
 
 ---
+
+## 📫 Connect
 
 <div align="center">
 
-### Building. Experimenting. Improving. 🚀
+[![GitHub](https://img.shields.io/badge/GitHub-ziadTeama--dev-181717?style=for-the-badge\&logo=github)](https://github.com/ziadTeama-dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ziad%20Teama-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/ziad-teama-62a563378/)
+
+### 🚀 Building one system at a time.
 
 </div>
