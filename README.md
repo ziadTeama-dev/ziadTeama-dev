@@ -1,11 +1,15 @@
+<div align="center">
+
 # Hi, I'm Ziad Teama 👋
 
 ### AI Student | Aspiring ML Engineer 🤖
 
 Building AI systems from the ground up across **Generative AI, LLMs, Computer Vision, Reinforcement Learning, and Backend Engineering**.
 
-[![GitHub](https://img.shields.io/badge/GitHub-ziadTeama--dev-181717?style=for-the-badge\&logo=github)](https://github.com/ziadTeama-dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ziad%20Teama-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/ziad-teama-62a563378/)
+[![GitHub](https://img.shields.io/badge/GitHub-ziadTeama--dev-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/ziadTeama-dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ziad%20Teama-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/ziad-teama-62a563378/)
+
+</div>
 
 ---
 
@@ -15,7 +19,7 @@ Building AI systems from the ground up across **Generative AI, LLMs, Computer Vi
 
 **Transformer · Mixture-of-Experts · Early Exit**
 
-Custom image-captioning system combining a ResNet-50 encoder, Transformer decoder, MoE routing, and confidence-based early exit.
+A custom image-captioning system combining a ResNet-50 encoder, Transformer decoder, MoE routing, and confidence-based adaptive computation.
 
 [Repository](https://github.com/ziadTeama-dev/moe-image-captioning)
 
@@ -23,7 +27,7 @@ Custom image-captioning system combining a ResNet-50 encoder, Transformer decode
 
 **Decoder-only Transformer · PyTorch · From Scratch**
 
-A GPT-style language model implemented from the ground up to explore attention, normalization, autoregressive generation, and language modeling.
+A GPT-style language model built from the ground up to explore multi-head attention, normalization, autoregressive generation, and language modeling.
 
 [Repository](https://github.com/ziadTeama-dev/gpt-mini-from-scratch)
 
@@ -31,7 +35,7 @@ A GPT-style language model implemented from the ground up to explore attention, 
 
 **Diffusion Models · U-Net · PyTorch**
 
-An end-to-end implementation of a Denoising Diffusion Probabilistic Model, including forward noising and reverse denoising.
+An end-to-end implementation of a Denoising Diffusion Probabilistic Model, covering forward noising, timestep embeddings, and reverse denoising.
 
 [Repository](https://github.com/ziadTeama-dev/pytorch-ddpm-from-scratch)
 
@@ -47,7 +51,7 @@ Fine-tuned Qwen2.5-1.5B-Instruct using parameter-efficient fine-tuning and deplo
 
 **Node.js · Express.js · MongoDB · REST APIs**
 
-Production-oriented backend for an online learning platform, featuring **authentication, role-based authorization, session management, payments, secure file handling, validation, rate limiting, and regression testing**.
+Production-oriented backend featuring authentication, role-based authorization, session management, payments, secure file handling, validation, rate limiting, and regression testing.
 
 [Demo & Project Overview](https://github.com/ziadTeama-dev/online-learning-platform-demo)
 
@@ -55,7 +59,7 @@ Production-oriented backend for an online learning platform, featuring **authent
 
 **PPO · Self-Play · Unity ML-Agents**
 
-Reinforcement-learning environment where agents learn football behavior through PPO, reward shaping, and self-play.
+A reinforcement-learning environment where agents learn football behavior through PPO, reward shaping, and self-play.
 
 [Repository](https://github.com/ziadTeama-dev/Football-AI-Agent-with-Unity-ML-Agents)
 
@@ -63,36 +67,58 @@ Reinforcement-learning environment where agents learn football behavior through 
 
 ## 🛠️ Tech Stack
 
-**AI / ML**
-Python · PyTorch · Hugging Face · Scikit-learn
+<div align="center">
 
-**Backend**
-Node.js · Express.js · ASP.NET MVC · REST APIs
+### 🤖 AI & Machine Learning
 
-**Databases**
-MongoDB · MySQL · PostgreSQL · SQL Server
+<img src="https://skillicons.dev/icons?i=python,pytorch,huggingface,sklearn" />
 
-**Languages**
-Python · JavaScript · C#
+**NumPy · Pandas · XGBoost · Transformers · Streamlit**
 
-**Web**
-HTML · CSS
+### ⚙️ Backend & Web
 
-**Tools**
-Git · Docker · Unity · Apache Airflow
+<img src="https://skillicons.dev/icons?i=nodejs,express,dotnet,js" />
+
+**Node.js · Express.js · ASP.NET MVC · REST APIs**
+
+### 🗄️ Databases
+
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" />
+
+**MongoDB · MySQL · PostgreSQL · SQL Server · SQL · Mongoose**
+
+### 🧰 Tools & Platforms
+
+<img src="https://skillicons.dev/icons?i=git,docker,unity,linux" />
+
+**Apache Airflow · Postman · SQL Server Management**
+
+</div>
 
 ---
 
-## 📚 CS Fundamentals
+## 📚 Computer Science
 
-Data Structures & Algorithms · System Design · OOP · Database Design · Software Engineering
+**Data Structures & Algorithms** · **System Design** · **Object-Oriented Programming** · **Database Design** · **Software Engineering** · **API Design**
 
 ---
 
 ## 🔬 Currently Exploring
 
-Efficient Transformers · Mixture-of-Experts · Adaptive Computation · LLM Fine-Tuning · Efficient Inference · Production AI Systems
+**Efficient Transformers** · **Mixture-of-Experts** · **Adaptive Computation** · **Early Exit** · **LLM Fine-Tuning** · **Efficient Inference** · **Production AI Systems**
 
 ---
 
-> **Understand → Build → Experiment → Measure → Improve**
+## 🧩 Engineering Mindset
+
+> **Understand → Build → Experiment → Measure → Analyze → Improve**
+
+I focus on understanding **how systems work internally**, building from first principles, and turning experiments into practical implementations.
+
+---
+
+<div align="center">
+
+### Building. Experimenting. Improving. 🚀
+
+</div>
