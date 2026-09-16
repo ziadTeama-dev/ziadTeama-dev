@@ -44,9 +44,10 @@ Fine-tuned Qwen2.5-1.5B-Instruct using parameter-efficient fine-tuning and deplo
 
 **Node.js · Express.js · MongoDB · REST APIs**
 
-Production-oriented backend featuring authentication, role-based authorization, session management, payments, secure file handling, validation, rate limiting, and regression testing.
+Production-oriented backend for an online learning platform, featuring **authentication, role-based authorization, session management, payments, secure file handling, validation, rate limiting, and regression testing**.
 
-[Repository](https://github.com/ziadTeama-dev/online-learning-platform-demo)
+[Demo & Project Overview](https://github.com/ziadTeama-dev/online-learning-platform-demo)
+
 
 ### ⚽ Football AI Agent
 
