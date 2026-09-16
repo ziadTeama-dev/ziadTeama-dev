@@ -4,7 +4,8 @@
 
 ### AI Student | Aspiring ML Engineer 🤖
 
-I build and experiment with AI systems from the ground up — exploring **Generative AI, LLMs, Computer Vision, Reinforcement Learning, and Backend Engineering**.
+Building and experimenting with **AI systems from the ground up** —
+with a focus on **Generative AI, LLMs, Computer Vision, Reinforcement Learning, and Backend Engineering**.
 
 <p>
   <a href="https://github.com/ziadTeama-dev">
@@ -19,174 +20,187 @@ I build and experiment with AI systems from the ground up — exploring **Genera
 
 ---
 
-## 🧠 What I Build
+## 🧠 What I Work On
 
-### 🤖 Generative AI & LLMs
-
-Transformers, LLM fine-tuning, LoRA/QLoRA, autoregressive generation, and model experimentation.
-
-### 👁️ Computer Vision
-
-Image captioning, deep learning architectures, diffusion models, and vision-language systems.
-
-### 🎮 Reinforcement Learning
-
-PPO, reward shaping, self-play, and game-based learning environments.
-
-### ⚡ Efficient AI
-
-Mixture-of-Experts, dynamic routing, confidence-based early exit, and adaptive computation.
-
-### ⚙️ Backend Engineering
-
-REST APIs, server-side applications, databases, and AI-powered backend systems.
-
-### 📊 Data Engineering
-
-ETL pipelines, orchestration, data transformation, and analytical workflows.
+| Area                          | Focus                                                                 |
+| ----------------------------- | --------------------------------------------------------------------- |
+| 🤖 **Generative AI & LLMs**   | Transformers, LLM fine-tuning, LoRA/QLoRA, autoregressive generation  |
+| 👁️ **Computer Vision**       | Image captioning, diffusion models, vision-language systems           |
+| 🎮 **Reinforcement Learning** | PPO, reward shaping, self-play, game environments                     |
+| ⚡ **Efficient AI**            | Mixture-of-Experts, dynamic routing, early exit, adaptive computation |
+| ⚙️ **Backend Engineering**    | REST APIs, server-side applications, authentication, databases        |
+| 📊 **Data Engineering**       | ETL pipelines, orchestration, transformation, analytics               |
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🖼️ [MoE Image Captioning](https://github.com/ziadTeama-dev/moe-image-captioning)
+### 🖼️ MoE Image Captioning
 
-A custom image-captioning system built with **PyTorch**, combining a pretrained **ResNet-50 encoder** with a **Transformer decoder, Mixture-of-Experts routing, and confidence-based early exit**.
+**Transformer + Mixture-of-Experts + Early Exit**
+
+A custom image-captioning system combining a **ResNet-50 visual encoder** with a Transformer decoder, MoE routing, and confidence-based dynamic computation.
 
 **Highlights**
 
 * 3-expert Top-1 routing
-* Noisy expert router + shared expert
-* Cross-attention between text and visual tokens
-* Confidence-based dynamic depth
+* Noisy router + shared expert
+* Visual-to-text cross-attention
+* Confidence-based early exit
 * BLEU-1 / BLEU-4 evaluation
-* ~23% lower evaluation time in the reported early-exit experiment
+* Reported reduction in evaluation time with early exiting
 
-**Tech:** `PyTorch` `Transformers` `MoE` `Computer Vision` `Streamlit`
-
----
-
-### 🧠 [GPT Mini — From Scratch](https://github.com/ziadTeama-dev/gpt-mini-from-scratch)
-
-A decoder-only GPT implementation built **from scratch in PyTorch**, including custom multi-head attention, LayerNorm, autoregressive generation, and training experiments.
-
-**Tech:** `Python` `PyTorch` `Transformers` `TensorBoard` `Streamlit`
+🔗 [Explore Repository](https://github.com/ziadTeama-dev/moe-image-captioning)
 
 ---
 
-### 🌫️ [DDPM From Scratch](https://github.com/ziadTeama-dev/pytorch-ddpm-from-scratch)
+### 🧠 GPT Mini — From Scratch
 
-An end-to-end implementation of **Denoising Diffusion Probabilistic Models** using a custom U-Net, sinusoidal timestep embeddings, and iterative reverse diffusion.
+**Decoder-only Transformer built in PyTorch**
 
-**Tech:** `PyTorch` `Deep Learning` `Computer Vision`
+An implementation of a GPT-style language model built from the ground up, covering custom multi-head attention, LayerNorm, autoregressive generation, and training experiments.
 
----
-
-### 💬 [Qwen2.5 LoRA Fine-Tuning](https://github.com/ziadTeama-dev/qwen2.5-lora-finetuning)
-
-A conversational AI application built by fine-tuning **Qwen2.5-1.5B-Instruct** with LoRA using Unsloth, then deploying the model through Streamlit.
-
-**Tech:** `PyTorch` `Hugging Face` `LoRA` `QLoRA` `Unsloth` `Streamlit`
+🔗 [Explore Repository](https://github.com/ziadTeama-dev/gpt-mini-from-scratch)
 
 ---
 
-### ⚽ [Football AI Agent](https://github.com/ziadTeama-dev/Football-AI-Agent-with-Unity-ML-Agents)
+### 🌫️ DDPM — From Scratch
 
-A reinforcement-learning football environment where an AI agent learns through **PPO and reward shaping** using Unity ML-Agents.
+**Denoising Diffusion Probabilistic Model**
 
-**Tech:** `C#` `Unity` `ML-Agents` `Reinforcement Learning`
+An end-to-end DDPM implementation using a custom U-Net, sinusoidal timestep embeddings, forward noising, and iterative reverse diffusion.
+
+🔗 [Explore Repository](https://github.com/ziadTeama-dev/pytorch-ddpm-from-scratch)
 
 ---
 
-### 🎬 [IMDb ETL Pipeline](https://github.com/ziadTeama-dev/imdb-etl-pipeline)
+### 💬 Qwen2.5 LoRA Fine-Tuning
 
-An end-to-end data pipeline that automates the **extraction, transformation, and loading** of IMDb Top 1000 movie data into PostgreSQL using Apache Airflow, with a web dashboard for exploration.
+**Efficient LLM Fine-Tuning + Deployment**
 
-**Tech:** `Python` `Airflow` `PostgreSQL` `Pandas` `SQLAlchemy` `Docker`
+Fine-tuning **Qwen2.5-1.5B-Instruct** with LoRA using Unsloth, then deploying the resulting conversational model with Streamlit.
+
+🔗 [Explore Repository](https://github.com/ziadTeama-dev/qwen2.5-lora-finetuning)
+
+---
+
+### ⚽ Football AI Agent
+
+**Reinforcement Learning with Unity ML-Agents**
+
+A football environment where an agent learns through **PPO, reward shaping, and self-play**.
+
+🔗 [Explore Repository](https://github.com/ziadTeama-dev/Football-AI-Agent-with-Unity-ML-Agents)
+
+---
+
+### 🎬 IMDb ETL Pipeline
+
+**End-to-End Data Engineering**
+
+An ETL workflow that extracts, transforms, and loads IMDb movie data into PostgreSQL using **Apache Airflow**, with a dashboard for exploration.
+
+🔗 [Explore Repository](https://github.com/ziadTeama-dev/imdb-etl-pipeline)
 
 ---
 
 ## 🛠️ Tech Stack
 
-### AI / Machine Learning
+### 🤖 AI / Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square\&logo=pytorch\&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square\&logo=huggingface\&logoColor=black)
 ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square\&logo=scikitlearn\&logoColor=white)
 
-### Backend & Databases
+### ⚙️ Backend / Web
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=node.js\&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square\&logo=express\&logoColor=white)
-![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20MVC-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
+![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20MVC-512BD4?style=flat-square\&logo=.net\&logoColor=white)
+
+### 🗄️ Databases
+
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square\&logo=mongodb\&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square\&logo=mysql\&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square\&logo=microsoftsqlserver\&logoColor=white)
 
-### Programming
+**Database Design** • **SQL** • **ERD** • **SQL Server Management**
+
+### 💻 Programming
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
 ![CSharp](https://img.shields.io/badge/C%23-239120?style=flat-square\&logo=csharp\&logoColor=white)
+
+### 🌐 Frontend
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square\&logo=html5\&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square\&logo=css3\&logoColor=white)
 
-### Tools & Platforms
+### 🧰 Tools & Platforms
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square\&logo=unity\&logoColor=white)
-![TensorBoard](https://img.shields.io/badge/TensorBoard-FF6F00?style=flat-square\&logo=tensorflow\&logoColor=white)
+![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square\&logo=apacheairflow\&logoColor=white)
 
 ---
 
 ## 📚 Computer Science
 
-**Data Structures & Algorithms** • **Object-Oriented Programming** • **Database Design** • **System Design** • **REST APIs**
+**Data Structures & Algorithms**
+**Object-Oriented Programming**
+**Database Design**
+**System Design**
+**REST APIs**
+**Software Engineering Fundamentals**
 
 ---
 
 ## 🔬 Currently Exploring
 
-* Efficient Transformer architectures
-* Mixture-of-Experts and dynamic routing
-* Early-exit and adaptive computation
-* LLM fine-tuning and efficient inference
-* Production-oriented AI applications
-* Stronger problem-solving through DSA
+🧠 Efficient Transformer architectures
+⚡ Mixture-of-Experts and dynamic routing
+🔄 Early-exit and adaptive computation
+🎯 LLM fine-tuning and efficient inference
+⚙️ Production-oriented AI systems
+💡 Stronger problem-solving through DSA
 
 ---
 
-## 🧩 How I Learn
+## 🧩 My Engineering Approach
 
 ```text
 Understand the fundamentals
-        ↓
+          ↓
 Build from scratch
-        ↓
+          ↓
 Experiment
-        ↓
+          ↓
 Measure
-        ↓
+          ↓
+Analyze
+          ↓
 Improve
-        ↓
-Build again
 ```
 
-I care about understanding **how and why systems work**, not just using high-level abstractions.
+I focus on understanding **how systems work internally**, then turning that understanding into practical implementations.
 
 ---
 
-## 📫 Connect With Me
+## 📫 Let's Connect
 
-* 💻 GitHub: [ziadTeama-dev](https://github.com/ziadTeama-dev)
-* 💼 LinkedIn: [Ziad Teama](https://www.linkedin.com/in/ziad-teama-62a563378/)
+<p>
+  <a href="https://github.com/ziadTeama-dev">GitHub</a> •
+  <a href="https://www.linkedin.com/in/ziad-teama-62a563378/">LinkedIn</a>
+</p>
 
 ---
 
 <div align="center">
 
-### Building, experimenting, and learning one system at a time. 🚀
+### Building. Experimenting. Improving. 🚀
 
 </div>
