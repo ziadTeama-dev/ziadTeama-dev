@@ -4,6 +4,9 @@
 
 Building AI systems from the ground up across **Generative AI, LLMs, Computer Vision, Reinforcement Learning, and Backend Engineering**.
 
+[![GitHub](https://img.shields.io/badge/GitHub-ziadTeama--dev-181717?style=for-the-badge\&logo=github)](https://github.com/ziadTeama-dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ziad%20Teama-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/ziad-teama-62a563378/)
+
 ---
 
 ## 🚀 Featured Projects
@@ -48,7 +51,6 @@ Production-oriented backend for an online learning platform, featuring **authent
 
 [Demo & Project Overview](https://github.com/ziadTeama-dev/online-learning-platform-demo)
 
-
 ### ⚽ Football AI Agent
 
 **PPO · Self-Play · Unity ML-Agents**
@@ -83,7 +85,7 @@ Git · Docker · Unity · Apache Airflow
 
 ## 📚 CS Fundamentals
 
-Data Structures & Algorithms · System Design · OOP · Database Design · REST APIs · Software Engineering
+Data Structures & Algorithms · System Design · OOP · Database Design · Software Engineering
 
 ---
 
